@@ -1,0 +1,86 @@
+header{
+    margin: 20px;
+    padding: 5px;
+}
+
+body{
+    background-image: url('/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+    background-color: var(--cor-primaria-escura);
+    font-family: 'Poppins', open;
+    color: #fff;
+    margin: 20px;
+    padding: 15px;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+}
+
+
+.apresentacao-do-huddle{
+    margin: 40px;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content:end;
+
+    
+}
+
+h1 .titulo{
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 50px;
+      }
+      
+
+button{
+    background-color: var(--cor-primaria-clara);
+    color: #fff;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    transform: scale(1.1);
+
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    
+}
+.fa-instagram:hover, .fa-facebook:hover, 
+.fa-twitter:hover{
+    color: var(--cor-primaria-clara);
+}
+
+footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+}
+      
+
